@@ -1,0 +1,26 @@
+{
+    "name": "note-taker",
+    "version": "1.0.0",
+    "description": "A Note Taking Application that can be used to write and save notes, in order to help organise a day or even week.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DarionRichards/note-taker.git"
+    },
+    "keywords": [],
+    "author": "Darion Richards",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DarionRichards/note-taker/issues"
+    },
+    "homepage": "https://github.com/DarionRichards/note-taker#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
