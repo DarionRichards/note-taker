@@ -1,10 +1,6 @@
 const { Router } = require("express");
 
-const {
-    getNotes,
-    saveNote,
-    deleteNote,
-} = require("../controllers/apiController");
+const { getNotes, saveNote, deleteNote } = require("../controllers/api");
 
 const router = Router();
 
