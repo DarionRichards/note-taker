@@ -6,6 +6,6 @@ const router = Router();
 
 router.get("/notes", getNotes);
 router.post("/notes", saveNote);
-router.delete("/api/notes/:id", deleteNote);
+router.delete("/notes/:id", deleteNote);
 
 module.exports = router;

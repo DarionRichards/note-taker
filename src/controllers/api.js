@@ -5,8 +5,12 @@ const getNotes = (req, res) => {
     const notes = readFromDb();
     res.json(notes);
 };
-const saveNote = (req, res) => {};
-const deleteNote = (req, res) => {};
+const saveNote = (req, res) => {
+    res.send("saveNote");
+};
+const deleteNote = (req, res) => {
+    res.send("deletNote");
+};
 
 module.exports = {
     getNotes,
