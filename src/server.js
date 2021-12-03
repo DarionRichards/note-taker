@@ -8,10 +8,12 @@ const PORT = 4000;
 
 const app = express();
 
+// app usage
 app.use(express.static("public"));
 app.use(express.json({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
 
+// app routes
 app.use("/", htmlRoutes);
 app.use("/api", apiRoutes);
 
