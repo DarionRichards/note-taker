@@ -7,10 +7,10 @@ const getNotes = (req, res) => {
     const notes = readFromDb();
     res.json(notes);
 };
-const saveNote = (req, res) => {
-    const notes = readFromDb();
 
+const saveNote = (req, res) => {
     const notePayload = req.body;
+    const notes = readFromDb();
 
     const newNote = {
         id: uuidv4(),
@@ -22,19 +22,16 @@ const saveNote = (req, res) => {
     writeToDb(JSON.stringify(notes));
     res.json(notes);
 };
+
 const deleteNote = (req, res) => {
     const { id } = req.params;
-
     const notes = readFromDb();
-    console.log(notes);
 
     const newNotes = notes.filter((note) => {
         return note.id !== id;
     });
-    console.log(newNotes);
 
     writeToDb(JSON.stringify(newNotes));
-
     res.json(newNotes);
 };
 
