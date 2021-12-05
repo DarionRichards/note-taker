@@ -4,7 +4,7 @@
     "description": "A Note Taking Application that can be used to write and save notes, in order to help organise a day or even week.",
     "main": "index.js",
     "scripts": {
-        "server": "node src/server.js",
+        "start": "node src/server.js",
         "dev": "nodemon src/server.js"
     },
     "repository": {
