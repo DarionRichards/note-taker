@@ -6,25 +6,27 @@
 4.  [User Flow](#user-flow)
 5.  [Invoke Application](#invoke-application)
 6.  [Tests](#tests)
-7.  [Generated HTML Demo](#generate-html-demo)
-8.  [Application Demo](#application-demo)
+7.  [Demo](#demo)
 
 ## **Description**
 
-In this project, I have created a Note Taker (CRUD-Application) using `Node.js`, where users will be able to add notes to their planner, and refer back to it in the future when needed.
+In this project, I have been tasked to build the back-end of "Note Taker" application using `Express.js`. This application will allow users to add notes to a planner, and refer back to it in the future when needed.
 
-Users are asked to enter information such as....
+For the back-end, I have created the necessary routes and controller functions in order to ensure the paths were correct for the site to function on the back-end. This application is deployed to Heroku, you can visit the deployed application here: https://still-taiga-68575.herokuapp.com/notes
 
 ## **Technologies Used**
 
 - HTML
 - CSS
+- Bootstrap
 - JavaScript
 - Node.js
+- Express.js
 
 ## **Packages Used**
 
 - Express
+- UUID
 - Nodemon (dev)
 
 ## **User Flow**
@@ -64,12 +66,14 @@ npm run start
 
 ## **Tests**
 
-```
-npm run
-```
+Tests were not required.
 
-## **Generated HTML Demo**
+## **Demo**
 
-<img src="./assets/demo/demo.png" />
+### Index.html
 
-## **Application Demo**
+<img src="./demo/still-taiga-68575.herokuapp.com_.png"/>
+
+### Notes.html
+
+<img src="./demo/still-taiga-68575.herokuapp.com_notes.png"/>
