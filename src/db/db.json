@@ -1,7 +1,7 @@
 [
-  {
-    "id": "4d2ca0f3-597d-488a-80c7-a8aad04c9b91",
-    "title": "Test Title",
-    "text": "Test text"
-  }
+	{
+		"id": "b1cc9a76-5512-4435-9c4f-ed5dfa36930f",
+		"title": "Welcome to Note Taker",
+		"text": "Steps:\n    1. Add a new note by clicking the \" + \" in the top right.\n    2. Add your note tilt.\n    3. Add your note description.\n    4. Save your new note."
+	}
 ]
